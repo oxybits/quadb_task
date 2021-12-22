@@ -1,0 +1,17 @@
+{
+  "name": "quadb",
+  "version": "1.0.0",
+  "description": "Task",
+  "main": "backend.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Akshat Batra",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.17.2",
+    "express-handlebars": "^6.0.2",
+    "node-fetch": "^3.1.0"
+  }
+}

@@ -1,0 +1,24 @@
+<table class="table table-borderless text-center">
+<thead>
+<tr>
+<th><h4><span class="pointer">#</span></h4></th>
+<th><h4><span class="pointer">name</span></h4></th>
+<th><h4><span class="pointer">Last Traded Price</span></h4></th>
+<th><h4><span class="pointer">Buy / Sell Price</span></h4></th>
+<th><h4><span class="pointer">volume</span></h4></th>
+<th><h4><span class="pointer">base_unit</span></h4></th>
+</tr>
+</thead>
+<tbody>
+{{#each data}}
+<tr>
+<td class="align-middle"><h4 class="table-text">{{add @index}}</h4></td>
+<td class="align-middle"><h4 class="table-text">{{this.name}}</h4></td>
+<td class="align-middle"><h4 class="table-text">{{this.last}}</h4></td>
+<td class="align-middle"><h4 class="table-text">{{this.buy}}/{{this.sell}}</h4></td>
+<td class="align-middle"><h4 class="table-text">{{this.volume}}</h4></td>
+<td class="align-middle"><h4 class="table-text">{{this.base_unit}}</h4></td>
+</tr>
+{{/each}}
+</tbody>
+</table>
